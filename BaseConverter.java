@@ -27,7 +27,7 @@ public class BaseConverter {
         BaseConverter a = new BaseConverter(255, 16, "10");
         System.out.println(a.convertToNumbers()); //prints out "15/15"
         System.out.println(a.convertToUnicode()); //prints out "??"
-        //finally to declare the inner stack methods to prevent tampering
+        //finally to declare the inner stack methods private to prevent tampering
         
         // TODO code application logic here
     }
